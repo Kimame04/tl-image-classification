@@ -4,8 +4,8 @@ The aim of this project is to be able to perform image classification on land us
 
 The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landuse.html).
 
-# Changelog
+## Changelog
 
-## 2021/08/07
+### 2021/08/07
 
 - Initialised Git repository
