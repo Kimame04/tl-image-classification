@@ -10,7 +10,7 @@ The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landu
 
 - Decided to go with sampling images from a Folium map. These images would be useful especially if we were to conduct the classification in the Singapore context.
 - Test accuracy stands at about 89% which is close to the validation accuracy 
-- Added the dataset folder to the repository.
+- Added the dataset folder to the repository. Singapore image augmentation done slightly and still in progress.
 
 ### 2021/07/11
 
