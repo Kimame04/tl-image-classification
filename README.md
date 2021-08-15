@@ -6,6 +6,11 @@ The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landu
 
 ## Changelog (YY/mm/dd)
 
+### 2021/08/15
+
+- The addition of Singapore land use images is mostly complete, and hopefully will improve training in the Singapore context.
+- Object detection can be done after image classification. The data would come in useful for a comprehensive data analysis of Singapore land usage.
+
 ### 2021/08/10
 
 - Decided to go with sampling images from a Folium map. These images would be useful especially if we were to conduct the classification in the Singapore context.
