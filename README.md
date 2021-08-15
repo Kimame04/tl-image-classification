@@ -10,6 +10,8 @@ The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landu
 
 - The addition of Singapore land use images is mostly complete, and hopefully will improve training in the Singapore context.
 - Object detection can be done after image classification. The data would come in useful for a comprehensive data analysis of Singapore land usage.
+- The model is retrained on some Singapore images and the validation accuracy is 92.92%.
+- The original UCMerced_LandUse dataset folder is added as a fallback.
 
 ### 2021/08/10
 
