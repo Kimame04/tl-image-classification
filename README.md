@@ -6,6 +6,12 @@ The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landu
 
 ## Changelog (YY/mm/dd)
 
+### 2021/08/16
+- We also trained the data on the MobileNetV2 and InceptionV3. 
+- We found that MobileNet trains much faster and has 60% accuracy (expected, as it is a lightweight deep-learning model)
+- However, InceptionV3 had only 40% accuracy with comparable training time.
+- Benchmarking and analysis to come soon.
+
 ### 2021/08/15
 
 - The addition of Singapore land use images is mostly complete, and hopefully will improve training in the Singapore context.
