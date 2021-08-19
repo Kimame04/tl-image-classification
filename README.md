@@ -6,6 +6,11 @@ The dataset can be found [here](http://weegee.vision.ucmerced.edu/datasets/landu
 
 ## Changelog (YY/mm/dd)
 
+### 2021/08/19
+- EfficientNet and VGG16 models were added. EfficientNet has 89% validation accuracy while VGG16 has 81%.
+- The training time per epoch is displayed and can therefore be a tentative marker of model efficiency in addition to the test accuracy.
+- Since we intend to create an end-user application, we have to convert a model to .tflite format for an Android application. From here we can run the model through Firebase. In this case we used the ResNet50 model as it has 89% test accuracy while being relatively fast. Using MobileNet or EfficientNet could be a good choice as well.
+
 ### 2021/08/16
 - We also trained the data on the MobileNetV2 and InceptionV3. 
 - We found that MobileNet trains much faster and has 60% accuracy (expected, as it is a lightweight deep-learning model)
